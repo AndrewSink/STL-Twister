@@ -1,7 +1,7 @@
 # STL-Twister
 Try it yourself: 
 
-![STL Twister](https://github.com/AndrewSink/STL-Twister/assets/46334898/24032127-d402-4d16-bb8f-326a9ce050fe)
+![Twist](https://github.com/AndrewSink/STL-Twister/assets/46334898/e01f89b2-633a-4bbb-9ff8-405d7c2d8d23)
 
 Twist mesh STL files and download the result! Perfect for 3D printing!
 
