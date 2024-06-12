@@ -1,9 +1,9 @@
 # STL-Twister
 Try it yourself: 
 
-https://github.com/AndrewSink/STL-Twister/assets/46334898/3d266b95-26f8-484d-9fb1-0220d16a1c11
+![STL Twister](https://github.com/AndrewSink/STL-Twister/assets/46334898/24032127-d402-4d16-bb8f-326a9ce050fe)
 
-Twist and modify mesh STL files and download the result! Perfect for 3D printing!
+Twist mesh STL files and download the result! Perfect for 3D printing!
 
 ## Features
 
