@@ -1,5 +1,5 @@
 # STL Twister
-Try it yourself: 
+Try it yourself: https://andrewsink.github.io/STL-Twister/
 
 ![Twist](https://github.com/AndrewSink/STL-Twister/assets/46334898/e01f89b2-633a-4bbb-9ff8-405d7c2d8d23)
 
