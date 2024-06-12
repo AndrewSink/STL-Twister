@@ -7,8 +7,13 @@ Twist mesh STL files and download the result! Perfect for 3D printing!
 
 ![STL_Twister](https://github.com/AndrewSink/STL-Twister/assets/46334898/0d97ccf1-ce0f-477e-a3f4-66675cee5f3b)
 
-Create multiple variations of terrain, tabletop miniatures, or other 3D models.
+## Applications
 
+- **Creating Unique Terrain**: Generate multiple variations of terrain for tabletop games or dioramas by applying different twist amounts to your base models.
+- **Customizing Tabletop Miniatures**: Modify existing miniatures by twisting them to add unique poses.
+- **Designing Artistic 3D Models**: Use the twist functionality to create abstract art pieces or custom decorative items.
+- **Prototyping and Product Design**: Quickly iterate on design concepts by applying twists to see how they affect the overall shape and structure of your models.
+  
 ## Features
 
 - **Upload STL Models**: Easily upload your STL files for modification.
