@@ -1,0 +1,86 @@
+/* styles.css */
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+#canvas-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: calc(100% - 200px);
+    height: 100%;
+}
+
+.sidebar {
+    width: 300px;
+    min-width: 300px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    text-align: left;
+    z-index: 1;
+    text-align: center;
+}
+
+.section {
+    border: 1px solid #ccc;
+    padding: 5px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    background-color: #f8f9fa;
+}
+
+#twistSlider {
+    margin-bottom: 10px;
+    width: calc(100% - 10px);
+    margin: 0 auto;
+}
+
+#twistAmountLabel, #twistRangeLabel {
+    display: block;
+    width: 100%;
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    font-size: 1.1em;
+}
+
+.sidebar h1 {
+    color: #fff;
+    flex-shrink: 0;
+    text-align: center;
+}
+
+.sidebar h3 {
+    color: #fff;
+    flex-shrink: 0;
+    text-align: center;
+}
+
+.sidebar .btn {
+    color: #fff;
+}
+
+.main-content {
+    margin-left: 0px;
+    min-height: 100vh;
+    padding-top: 50px;
+}
+
+.credits {
+    position: fixed;
+    text-align: right;
+    bottom: 10px;
+    right: 10px;
+    font-size: 14px;
+    font-weight: bold;
+    color: black;
+}
+
+.ko-fi {
+    position: relative;
+}

@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>STL Twister</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap">
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-sm-2 bg-secondary sidebar">
+                    <h1 class="my-3 text-center">STL Twister</h1>
+                    <button class="btn btn-primary my-2" id="uploadButton">Upload .STL</button>
+                    <input type="file" id="fileInput" accept=".stl" style="display:none;">
+                    <br>
+                    <div class="section">
+                        <label id="twistRangeLabel" class="text-dark">Twist Range</label>
+                        <div class="btn-group btn-group-toggle" data-toggle="buttons">
+                            <label class="btn btn-secondary" id="lowLabel">
+                                <input type="radio" name="options" id="option1" autocomplete="off"> Low
+                            </label>
+                            <label class="btn btn-secondary active" id="mediumLabel">
+                                <input type="radio" name="options" id="option2" autocomplete="off" checked> Medium
+                            </label>
+                            <label class="btn btn-secondary" id="highLabel">
+                                <input type="radio" name="options" id="option3" autocomplete="off"> High
+                            </label>
+                        </div>
+                    </div>
+
+                    <div class="section">
+                        <label id="twistAmountLabel" class="text-dark">Twist Amount</label>
+                        <input type="range" id="twistSlider" step=".1" min="-50" max="50" value="0">
+                        <div class="d-flex justify-content-between text-dark">
+                            <span>-</span>
+                            <span>0</span>
+                            <span>+</span>
+                        </div>
+                    </div>
+                    <button class="btn btn-info my-2" id="resetButton">Reset Position</button>
+                    <button class="btn btn-info my-2" id="rotateButton">Rotate Controls</button>
+                    <button class="btn btn-success my-2" id="exportButton">Export .STL</button>
+                </div>
+                <div class="col-sm-10 main-content">
+                    <div id="canvas-container"></div>
+                </div>
+            </div>
+        </div>
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+        <script type="module" src="script.js"></script>
+
+        <div class="ko-fi">
+
+            <script src='https://storage.ko-fi.com/cdn/scripts/overlay-widget.js'></script>
+            <script>
+                kofiWidgetOverlay.draw('andrewsink', {
+                    'type': 'floating-chat',
+                    'floating-chat.donateButton.text': 'Support me',
+                    'floating-chat.donateButton.background-color': '#00b9fe',
+                    'floating-chat.donateButton.text-color': '#fff'
+                });
+            </script>
+        </div>
+
+        <div class="credits">Andrew Sink - 2024 <br>
+            <a href="https://www.thingiverse.com/thing:138642">MakerBot Gnome
+                / CC BY 4.0</a>
+
+            <br>
+    </body>
+
+</html>
