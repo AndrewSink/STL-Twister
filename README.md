@@ -5,6 +5,10 @@ Try it yourself:
 
 Twist mesh STL files and download the result! Perfect for 3D printing!
 
+![STL_Twister](https://github.com/AndrewSink/STL-Twister/assets/46334898/0d97ccf1-ce0f-477e-a3f4-66675cee5f3b)
+
+Create multiple variations of terrain, tabletop miniatures, or other 3D models.
+
 ## Features
 
 - **Upload STL Models**: Easily upload your STL files for modification.
